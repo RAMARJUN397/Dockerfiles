@@ -7,6 +7,17 @@ which provides for logical units that can be discovered and managed.
 Why K8s:-
 1.Kubernetes provides you with a framework to run distributed systems resiliently
 2.It takes care of scaling and failover for your application, provides deployment patterns, and more
+Benefits of Kubernetes
+Scalability: Kubernetes scales applications horizontally by adding or removing pod replicas based on demand.
+High Availability: It provides built-in mechanisms to ensure that your applications are highly available by
+distributing them across multiple nodes.
+Self-Healing: Kubernetes automatically restarts failed containers and replaces unhealthy pods,
+ensuring the desired state is maintained.
+Rolling Updates and Rollbacks: Deployments enable seamless rolling updates of application
+versions and facilitate easy rollbacks in case of issues.
+Service Discovery and Load Balancing: Kubernetes services allow applications 
+to discover and communicate with each other, distributing traffic evenly across pods
+
 
 kubeadm: the command to bootstrap the cluster.
 kubelet: the component that runs on all of the machines in your cluster and does things like starting PODs and containers. 
