@@ -4,6 +4,9 @@ management, monitoring, scaling, and deployment of containerized applications.
 It is used to easily manage several containers (since it can handle grouping of containers), 
 which provides for logical units that can be discovered and managed.
 
+Why K8s:-
+1.Kubernetes provides you with a framework to run distributed systems resiliently
+2.It takes care of scaling and failover for your application, provides deployment patterns, and more
 
 kubeadm: the command to bootstrap the cluster.
 kubelet: the component that runs on all of the machines in your cluster and does things like starting PODs and containers. 
