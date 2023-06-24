@@ -1,3 +1,13 @@
+Kubernetes is an open-source container orchestration tool or system that is used to automate tasks such as the
+management, monitoring, scaling, and deployment of containerized applications.
+
+It is used to easily manage several containers (since it can handle grouping of containers), 
+which provides for logical units that can be discovered and managed.
+
+
+kubeadm: the command to bootstrap the cluster.
+kubelet: the component that runs on all of the machines in your cluster and does things like starting PODs and containers. 
+kubectl: the command line until to talk to your cluster.
 1. Play With K8s
 https://labs.play-with-k8s.com/
 2.K8s
